@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-black font-mono border border-white text-white sm:w-screen">
-  <div class="flex justify-between px-4 border border-white py-4 bg-black font-IMB-Plex-Serif md:w-4/5 mx-auto">
+<body class="bg-black font-mono  text-white sm:w-full w-4/5 mx-auto ">
+  <div class="flex justify-between px-4 border-b-2 border-dashed border-white py-4 bg-black font-IMB-Plex-Serif md:w-4/5 mx-auto">
     <div class="">
       <p>Home</p>
     </div>
@@ -20,8 +20,7 @@
   <div class="flex flex-col p-4 space-y-2 border-b-2 border-dashed mt-4 sm:w-4/5">
     <img src="https://images.unsplash.com/photo-1566241477600-ac026ad43874?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2VicGFnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="This is just a picture of my project">
     <p class="font-bold text-xl">My name is Jeff</p>
-    <p>ayyy ayyy loop hole eskerrrrrit, look at my next shot. ou. eskerrrrrit ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high eskerriiiiiiiiiiiiiiiiiiiit </p>
-    <div class="flex mt-2 space-x-4">
+    <p>ayyy ayyy loop hole eske, look at my next shot. ou.  ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high
       <button class=" bg-white text-black rounded rounded-md px-6 py-2  hover:bg-gray-300">Visit</button>
       <button class="bg-white text-black rounded rounded-m px-6 py-2 hover:bg-gray-300">Github</button>
     </div>
@@ -29,13 +28,13 @@
   <div class="flex flex-col p-4 space-y-2 border-b-2 border-dashed mt-4">
     <img src="https://images.unsplash.com/photo-1621873493031-d871c4e49d61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ybmh1YnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="This is just a picture of my project">
     <p class="font-bold text-xl">My name is Jeff</p>
-    <p>ayyy ayyy loop hole eskerrrrrrrrrrrrrrrrrrrrrrrrrrrrit, look at my next shot. ou. eskerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrit ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high eskerriiiiiiiiiiiiiiiiiiiit </p>
+    <p>ayyy ayyy loop hole , look at my next shot. ou. ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high  </p>
     <div class="flex mt-2 space-x-4">
       <button class=" bg-white text-black rounded rounded-md px-6 py-2 hover:bg-gray-300 ">Visit</button>
       <button class="bg-white text-black rounded rounded-m px-6 py-2 hover:bg-gray-300">Github</button>
     </div>
   </div>
-  <div class="flex flex-col border border-red-600 space-y-2">
+  <div class="flex flex-col border-b-2 pb-8 border-dashed space-y-2">
     <h1 class="flex self-center mt-4">My Tech Stack 👩‍💻</h1>
     <div class="flex space-x-4 justify-around">
       <img class="w-8 transform transition duration-500 hover:scale-110" src="https://image.flaticon.com/icons/png/128/1126/1126012.png" alt="React">
@@ -44,7 +43,39 @@
     <img class="w-8 transform transition duration-500 hover:scale-110" src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/github-128.png" alt="">
     <button class="border rounded py-1 px-4 hover:bg-gray-300 transform transition duration-500 hover:scale-110hover:text-black">Tailwind</button>
   </div>
-    </div>
+</div>
+
+
+<div class="flex w-full justify-around items-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+</div>
+<form action="" class="p-10 max-w-xl mx-auto ">
+  <div class="mb-10">
+      <h1 class="font-bold text-4xl mb-3">Get in touch</h1>
+      <p class="font-medium text-lg mb-5">Send us a quick message and we'll get back to you shortly.</p>
+      <hr class="border-gray-900 dark:border-gray-100">
+  </div>
+  <div class="mb-5">
+      <label for="message" class="text-lg flex justify-between items-end"><span>Message</span><span class="text-xs text-red-500">Required</span></label>
+      <textarea name="message" id="message" cols="30" rows="10" class="shadow-md mt-1 block w-full sm:text-sm rounded-none border-gray-900 dark:border-gray-100 bg-white dark:bg-gray-900"></textarea>
+  </div>
+  <div class="mb-5">
+      <label for="name" class="text-lg flex justify-between items-end"><span>Name</span><span class="text-xs text-red-500 ">Required</span></label>
+      <div class="mt-1 flex shadow-md">
+          <span class="inline-flex items-center px-3 rounded-none border border-r-0 border-gray-900 dark:border-gray-100"><i class="fas fa-user"></i></span>
+          <input type="text" name="name" class="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white dark:bg-gray-900">
+      </div>
+  </div>
+  <div class="mb-5">
+      <label for="email" class="text-lg flex justify-between items-end"><span>Email</span><span class="text-xs text-red-500">Required</span></label>
+      <div class="mt-1 flex shadow-md">
+          <span class="inline-flex items-center px-3 rounded-none border border-r-0 border-gray-900 dark:border-gray-100"><i class="fas fa-envelope"></i></span>
+          <input type="email" name="email" class="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white dark:bg-gray-900">
+      </div>
+  </div>
+  <div>
+      <button type="button" class="font-medium shadow-md rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 border border-gray-900 dark:border-gray-100 bg-gray-800 dark:bg-gray-200 text-gray-200 dark:text-gray-800 hover:bg-gray-900 dark:hover:bg-gray-100"><i class="fas fa-check"></i> Send</button>
+  </div>
+</form>
     
 
 </body>
