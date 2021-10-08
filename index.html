@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-black font-mono  text-white sm:w-full w-4/5 mx-auto">
+<body class="bg-black font-mono  text-white sm:w-full w-4/5 mx-auto xl:text-3xl">
   <div class="flex justify-between px-4 border-b-2 border-t-2 border-dashed border-white py-4 bg-black font-IMB-Plex-Serif  fixed bottom-0 w-4/5 mx-auto sm:hidden md:hidden">
     <div class="">
       <a href="#home"><p>Home</p></a>
@@ -31,16 +31,16 @@
   <!-- Cards-->
   <!-- Card #1-->
   <div class="flex flex-col p-4 space-y-4 border-dashed mt-4 md:w-4/5 md:mx-auto sm:w-4/5 sm:mx-auto xl:w-2/3">
-    <h2 id="projects" class="text-center text-2xl text-bold">Projects 🖥💻</h2>
-    <div class="flex flex-col md:flex-row">
+    <h2 id="projects" class="text-center text-2xl text-bold xl:text-4xl md:text-3xl">Projects 🖥💻</h2>
+
+    <div class="flex flex-col ">
       <div class="xl:pr-6">
-        <video class="h-40" src="./images/recipebook.mp4" class="rounded self-center" poster="./images/Screenshot (68).png"  width="480" height="600" controls >
-        </video>
+        <img class="md:h-80 mx-auto" src="images/recipeBook.jpg" /> 
 
       </div>
-      <div class="mt-6">
-        <p class="font-bold text-lg text-center">Recipe Book</p>
-        <p>ayyy ayyy loop hole , look at my next shot. ou. ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high  </p>
+      <div class="mt-6 ">
+        <p class="font-bold text-lg text-center xl:text-4xl">Recipe Book</p>
+        <p>This is a recipe library that I built using React JS. It provides hundreds of recipes based on the ingredient used in the search input.</p>
         <div class="flex flex-col md:space-between  space-y-4 mt-4 lg:items-stretch lg:space-y-0 lg:flex-row lg:space-x-4">
           <button class="bg-black border border-white rounded  rounded-md px-6 py-2 hover:bg-gray-300 " href="#" onclick='window.open("https://recipebook-app1.herokuapp.com/");return false;' type="button"  >Visit</button>
         <button class=" bg-black border border-white m-0 rounded rounded-md px-6 py-2 hover:bg-gray-300" href="#" onclick='window.open("https://github.com/DatBoiLuiskrrt/RecipeBook");return false;' type="button">Github</button>
@@ -65,15 +65,14 @@
 
   <div class="flex flex-col p-4 space-y-4  border-dashed mt-4 md:w-4/5 md:mx-auto sm:w-4/5 sm:mx-auto  xl:w-2/3">
     
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col">
       <div  class="xl:pr-6">
-        <video class="h-40" src="./images/covid.mp4" class="rounded self-center" poster="./images/covidss.png"  width="480" height="600" controls >
-        </video>
+        <img class="md:h-80 mx-auto" src="images/Responsive-Web-Design2.jpg" /> 
 
       </div>
       <div class="mt-6">
-        <p class="font-bold text-lg text-center">COVID-19 Tracker</p>
-        <p>ayyy ayyy loop hole , look at my next shot. ou. ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high  </p>
+        <p class="font-bold text-lg text-center xl:text-4xl">COVID-19 Tracker</p>
+        <p>This is a Covid tracker that tracks the number of people infected, recovered and the deaths. This app was developed using React JS and Material UI.</p>
         <div class="flex flex-col md:space-between  space-y-4 mt-4 lg:items-stretch lg:space-y-0 lg:flex-row lg:space-x-4">
         <button class="bg-black border border-white rounded  rounded-md px-6 py-2 hover:bg-gray-300  href="#" onclick='window.open("https://corona-trackerapp.herokuapp.com/");return false;' type="button">Visit</button>
         <button class=" bg-black border border-white m-0 rounded rounded-md px-6 py-2 hover:bg-gray-300" href="#" onclick='window.open("https://github.com/DatBoiLuiskrrt/corona-tracker");return false;' type="button" >Github</button>
@@ -94,15 +93,14 @@
 
   <div class="flex flex-col p-4 space-y-4 border-b-2 border-dashed mt-4 md:w-4/5 md:mx-auto sm:w-4/5 sm:mx-auto pb-12  xl:w-2/3">
     
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col">
       <div  class="xl:pr-6">
-        <video class="h-40" src="./images/movies.mp4" class="rounded self-center" poster="./images/moviess.png"  width="480" height="600" controls >
-        </video>
+        <img class="md:h-80 mx-auto" src="images/MovieResponsive.jpg" />
 
       </div>
       <div class="mt-6">
-        <p class="font-bold text-lg text-center">Movie database</p>
-        <p>ayyy ayyy loop hole , look at my next shot. ou. ouue I just be smoking on dope pussy was too <span class="text-red-600">fire 🔥</span> I think I got too high  </p>
+        <p class="font-bold text-lg text-center xl:text-4xl">Movie database</p>
+        <p>This is a movie library built with React JS. It provides thousands of movies based on their name. You can search for a specific movie and you will get the results on a list. </p>
         <div class="flex flex-col md:space-between  space-y-4 mt-4 lg:items-stretch lg:space-y-0 lg:flex-row lg:space-x-4">
         <button class="bg-black border border-white rounded  rounded-md px-6 py-2 hover:bg-gray-300 href="#" onclick='window.open("https://movie-api-app1.herokuapp.com/");return false;' type="button">Visit</button>
         <button class=" bg-black border border-white m-0 rounded rounded-md px-6 py-2 hover:bg-gray-300" onclick='window.open("https://github.com/DatBoiLuiskrrt/moviereact");return false;' type="button">Github</button>
@@ -119,14 +117,22 @@
 
   <!--about me-->
   <div class="flex flex-col border-b-2 pb-8 border-dashed space-y-2 w-full p-4 md:w-4/5 md:mx-auto sm:w-4/5 sm:mx-auto  xl:w-2/3">
-    <h1 id="about" class="flex self-center mt-4 text-2xl">About Me 👩‍💻</h1>
+    <h1 id="about" class="flex self-center mt-4 text-2xl xl:text-4xl">About Me 👩‍💻</h1>
     <h2>I'm Luis Hernandez, a frontend developer from Mexico. I went to El Paso Community College for Computer Science. During the end of my college career I fell in love with Web Development and have focused the last 2 years of my life learning to code 👩‍💻</h2>
-    <img src="/images/optimizedprofilepicture.JPG" alt="A picture of me">
+    <span class="flex flex-row p-4 m-auto">
+      <a href="https://www.linkedin.com/in/datboiluiskrrt/" target="_blank">
+        <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-linkedin-social-media-justicon-flat-justicon.png"/>
+      </a>
+      <a href="https://github.com/DatBoiLuiskrrt" target="_blank">
+        <img src="https://img.icons8.com/nolan/64/github.png"/>
+      </a>
+    </span>
+    <img class="xl:h-80  mx-auto" src="/images/optimizedprofilepicture.JPG" alt="A picture of me">
   </div>
 
 
-<form class="flex flex-col pt-0 space-y-4 mt-6  p-4 sm:w-4/5 sm:mx-auto md:w-4/5 md:mx-auto" action="https://formsubmit.co/9f48f0a9ce0023416cf74ffd48cf5e65" method="POST">
-  <h2 id="contact" class="self-center text-2xl ">Contact Me 📨</h2>
+<form class="flex flex-col pt-0 space-y-4 mt-6  p-4 sm:w-4/5 sm:mx-auto md:w-4/5 md:mx-auto xl:w-80" action="https://formsubmit.co/9f48f0a9ce0023416cf74ffd48cf5e65" method="POST">
+  <h2 id="contact" class="self-center text-2xl xl:text-4xl">Contact Me 📨</h2>
   <input  class="text-black rounded py-2 px-4" type="text" name="name" placeholder="Your name" required>
   <input class="text-black rounded py-2 px-4" type="email" name="email" placeholder="Your email goes here" required>
   <input  class="text-black rounded py-2 px-4 " class="text-black" type="text" name="message" placeholder="type here..." required>
