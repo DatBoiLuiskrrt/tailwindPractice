@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-black font-mono  text-white sm:w-full w-4/5 mx-auto xl:text-3xl">
+<body class="bg-black font-mono  text-white sm:w-full w-4/5 mx-auto xl:text-3xl md:text-2xl">
   <div class="flex justify-between px-4 border-b-2 border-t-2 border-dashed border-white py-4 bg-black font-IMB-Plex-Serif  fixed bottom-0 w-4/5 mx-auto sm:hidden md:hidden">
     <div class="">
       <a href="#home"><p>Home</p></a>
@@ -18,7 +18,7 @@
       
   </div>
   <div class="flex justify-between px-4 border-b-2 border-dashed border-white py-4 bg-black font-IMB-Plex-Serif md:w-4/5 mx-auto">
-    <div class="">
+    <div class="md:text-2xl">
       <p id="home">Home</p>
     </div>
     <div class="flex px-4 justify-around space-x-4">
@@ -39,7 +39,7 @@
 
       </div>
       <div class="mt-6 ">
-        <p class="font-bold text-lg text-center xl:text-4xl">Recipe Book</p>
+        <p class="font-bold text-lg text-center xl:text-4xl md:text-3xl">Recipe Book</p>
         <p>This is a recipe library that I built using React JS. It provides hundreds of recipes based on the ingredient used in the search input.</p>
         <div class="flex flex-col md:space-between  space-y-4 mt-4 lg:items-stretch lg:space-y-0 lg:flex-row lg:space-x-4 xl:flex xl:flex-col">
           <button class="bg-black border border-white rounded  rounded-md px-6 py-2 xl:m-4 hover:from-blue-600 to-purple-500 bg-gradient-to-r block " href="#" onclick='window.open("https://recipebook-app1.herokuapp.com/");return false;' type="button"  >Visit</button>
@@ -71,7 +71,7 @@
 
       </div>
       <div class="mt-6">
-        <p class="font-bold text-lg text-center xl:text-4xl">COVID-19 Tracker</p>
+        <p class="font-bold text-lg text-center xl:text-4xl md:text-3xl">COVID-19 Tracker</p>
         <p>This is a Covid tracker that tracks the number of people infected, recovered and the deaths. This app was developed using React JS and Material UI.</p>
         <div class="flex flex-col md:space-between  space-y-4 mt-4 lg:items-stretch lg:space-y-0 lg:flex-row lg:space-x-4  xl:flex xl:flex-col">
         <button class="bg-black border border-white rounded  rounded-md px-6 py-2 xl:m-4 hover:from-blue-600 to-purple-500 bg-gradient-to-r block  href="#" onclick='window.open("https://corona-trackerapp.herokuapp.com/");return false;' type="button">Visit</button>
@@ -99,7 +99,7 @@
 
       </div>
       <div class="mt-6">
-        <p class="font-bold text-lg text-center xl:text-4xl">Movie database</p>
+        <p class="font-bold text-lg text-center xl:text-4xl md:text-3xl">Movie database</p>
         <p>This is a movie library built with React JS. It provides thousands of movies based on their name. You can search for a specific movie and you will get the results on a list. </p>
         <div class="flex flex-col md:space-between  space-y-4 mt-4 lg:items-stretch lg:space-y-0 lg:flex-row lg:space-x-4 xl:flex xl:flex-col ">
         <button class="bg-black border border-white rounded  rounded-md px-6 py-2 xl:m-4 hover:from-blue-600 to-purple-500 bg-gradient-to-r block href="#" onclick='window.open("https://movie-api-app1.herokuapp.com/");return false;' type="button">Visit</button>
@@ -117,8 +117,13 @@
 
   <!--about me-->
   <div class="flex flex-col border-b-2 pb-8 border-dashed space-y-2 w-full p-4 md:w-4/5 md:mx-auto sm:w-4/5 sm:mx-auto  xl:w-2/3">
-    <h1 id="about" class="flex self-center mt-4 text-2xl xl:text-4xl">About Me 👩‍💻</h1>
+    <h1 id="about" class="flex self-center mt-4 text-2xl xl:text-4xl md:text-3xl md:font-bold">About Me 👩‍💻</h1>
     <h2>I'm Luis Hernandez, a frontend developer from Mexico. I went to El Paso Community College for Computer Science. During the end of my college career I fell in love with Web Development and have focused the last 2 years of my life learning to code 👩‍💻</h2>
+    <p class="text-center">Check out my resume</p>
+    <p class="text-center">👇</p>
+    <a href="https://resume.creddle.io/resume/gkgkjogis4v" target="_blank">
+      <img class="h-20 w-20 mx-auto" src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/64/000000/external-resume-human-resources-itim2101-lineal-color-itim2101.png"/>
+    </a>
     <span class="flex flex-row p-4 m-auto">
       <a href="https://www.linkedin.com/in/datboiluiskrrt/" target="_blank">
         <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-linkedin-social-media-justicon-flat-justicon.png"/>
@@ -127,20 +132,20 @@
         <img src="https://img.icons8.com/nolan/64/github.png"/>
       </a>
     </span>
-    <img class="xl:h-80  mx-auto rounded-xl" src="/images/profilePicture.jpg" alt="A picture of me">
+    <img class="xl:h-80  mx-auto rounded-xl md:h-1/6" src="/images/profilePicture.jpg" alt="A picture of me">
   </div>
 
 
 <form class="flex flex-col pt-0 space-y-4 mt-6  p-4 sm:w-4/5 sm:mx-auto md:w-4/5 md:mx-auto xl:w-80" action="https://formsubmit.co/9f48f0a9ce0023416cf74ffd48cf5e65" method="POST">
-  <h2 id="contact" class="self-center text-2xl xl:text-4xl">Contact Me 📨</h2>
+  <h2 id="contact" class="self-center text-2xl xl:text-4xl md:text-3xl">Contact Me 📨</h2>
   <input  class="text-black rounded py-2 px-4" type="text" name="name" placeholder="You name..." required>
   <input class="text-black rounded py-2 px-4" type="email" name="email" placeholder="Your email..." required>
   <input  class="text-black rounded py-2 px-4 " class="text-black" type="text" name="message" placeholder="Type here..." required>
   <input  class="text-black rounded py-2 px-4" type="hidden" name="_next" value="http://127.0.0.1:5500//thanks.html">
-  <button class="!important bg-black border border-white py-2 rounded hover:bg-gray-100 hover:text-black" type="submit">Send</button>
+  <button class="!important bg-black border border-white py-2 rounded hover:bg-gray-100 hover:text-black hover:from-blue-600 to-purple-500 bg-gradient-to-r block md:font-bold" type="submit">Send</button>
 </form>
 <div class="mt-10">
-<p>...</p>
+<p class="">...</p>
 </div>
     
 
